@@ -994,7 +994,7 @@ export default function Header() {
           {/*----------------- Sidebar -----------------------*/}
 
           <div className="row" style={{marginTop:'72px'}}>
-            {/* <div className="col-lg-3"> */}
+            <div className="col-lg-2">
 
               <div className="app-sidebar sidebar-shadow">
                 <div className="app-header__logo">
@@ -1494,7 +1494,7 @@ export default function Header() {
 
                 </div>
               </div>
-            {/* </div> */}
+            </div>
 
 
             <div className="col-lg-9 mx-auto">
