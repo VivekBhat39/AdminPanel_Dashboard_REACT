@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -57,6 +58,12 @@ export default function Sidebar() {
                     </a>
                     <ul>
                       <li>
+                          <li><Link to="/dashboards/analyticsdashboard">Analytics Dashboard</Link></li>
+                          <li><Link to="/dashboards/technicalsupport">Technical Supports</Link></li>
+                          <li><Link to="/dashboards/chartcard">Chart Card</Link></li>
+                          <li><Link to="/dashboards/dynamictables">Dynamic Tables</Link></li>
+                          <li><Link to="/dashboards/taskandchatbox">Task And Chatbox</Link></li>
+                          <li><Link to="/dashboards/totalorders">TotalOrders</Link></li>
                         <a href="index.html" className="mm-active">
                           <i className="metismenu-icon"></i>Analytics
                         </a>

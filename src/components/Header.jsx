@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 export default function Header() {
   return (
     <div>
-      <div className="app-container app-theme-white body-tabs-shadow fixed-header fixed-sidebar">
+      <div className="app-container app-theme-white body-tabs-shadow fixed-header fixed-sidebar mt-5">
 
         {/* Header */}
         <div className="app-header header-shadow">
@@ -993,8 +993,8 @@ export default function Header() {
 
           {/*----------------- Sidebar -----------------------*/}
 
-          <div className="row">
-            <div className="col-lg-3">
+          <div className="row" style={{marginTop:'72px'}}>
+            {/* <div className="col-lg-3"> */}
 
               <div className="app-sidebar sidebar-shadow">
                 <div className="app-header__logo">
@@ -1041,12 +1041,12 @@ export default function Header() {
                           <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                         </a>
                         <ul>
-                          <li><Link to="/dashboards/analyticsdashboard">Analytics Dashboard</Link></li>
-                          <li><Link to="/dashboards/technicalsupport">Technical Supports</Link></li>
-                          <li><Link to="/dashboards/chartcard">Chart Card</Link></li>
-                          <li><Link to="/dashboards/dynamictables">Dynamic Tables</Link></li>
-                          <li><Link to="/dashboards/taskandchatbox">Task And Chatbox</Link></li>
-                          <li><Link to="/dashboards/totalorders">TotalOrders</Link></li>
+                          <li><Link to="/dashboard/analyticsdashboard">Analytics Dashboard</Link></li>
+                          <li><Link to="/dashboard/technicalsupport">Technical Supports</Link></li>
+                          <li><Link to="/dashboard/chartcard">Chart Card</Link></li>
+                          <li><Link to="/dashboard/dynamictables">Dynamic Tables</Link></li>
+                          <li><Link to="/dashboard/taskandchatbox">Task And Chatbox</Link></li>
+                          <li><Link to="/dashboard/totalorders">TotalOrders</Link></li>
                           <li>
                             <a href="index.html">
                               <i className="metismenu-icon"></i>Analytics
@@ -1494,10 +1494,10 @@ export default function Header() {
 
                 </div>
               </div>
-            </div>
+            {/* </div> */}
 
 
-            <div className="col-lg-9 mt-5">
+            <div className="col-lg-9 mx-auto">
               <Outlet />
             </div>
           </div>

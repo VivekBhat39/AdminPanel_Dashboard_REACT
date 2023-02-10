@@ -15,18 +15,18 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
 
       <BrowserRouter>
         {/* <Header /> */}
         <Routes>
-          <Route path='/' element={<Header />}>
-            <Route path='/dashboards/analyticsdashboard' element={<AnalyticsDashboard />}/>
-            <Route path='/dashboards/technicalsupport' element={<TechnicalSupport />}/>
-            <Route path='/dashboards/chartcard' element={<ChartCard />}/>
-            <Route path='/dashboards/dynamictables' element={<DynamicTables />}/>
-            <Route path='/dashboards/taskandchatbox' element={<TaskAndChatbox />}/>
-            <Route path='/dashboards/totalorders' element={<TotalOrders />}/>
+          <Route path='/dashboard' element={<Header />}>
+            <Route path='/dashboard/analyticsdashboard' element={<AnalyticsDashboard />}/>
+            <Route path='/dashboard/technicalsupport' element={<TechnicalSupport />}/>
+            <Route path='/dashboard/chartcard' element={<ChartCard />}/>
+            <Route path='/dashboard/dynamictables' element={<DynamicTables />}/>
+            <Route path='/dashboard/taskandchatbox' element={<TaskAndChatbox />}/>
+            <Route path='/dashboard/totalorders' element={<TotalOrders />}/>
           </Route>
         </Routes>
         <Footer />
