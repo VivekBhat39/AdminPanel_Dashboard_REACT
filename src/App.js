@@ -18,10 +18,15 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
         <Routes>
-          <Route path='/dashboards' element={<AnalyticsDashboard />}>
+          <Route path='/' element={<Header />}>
+            <Route path='/dashboards/analyticsdashboard' element={<AnalyticsDashboard />}/>
             <Route path='/dashboards/technicalsupport' element={<TechnicalSupport />}/>
+            <Route path='/dashboards/chartcard' element={<ChartCard />}/>
+            <Route path='/dashboards/dynamictables' element={<DynamicTables />}/>
+            <Route path='/dashboards/taskandchatbox' element={<TaskAndChatbox />}/>
+            <Route path='/dashboards/totalorders' element={<TotalOrders />}/>
           </Route>
         </Routes>
         <Footer />
