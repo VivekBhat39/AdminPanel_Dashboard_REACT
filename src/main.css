@@ -10469,7 +10469,7 @@ button,
   position: relative;
   flex: 0 0 280px;
   margin-top: -60px;
-  padding-top: 60px;
+  padding-top: 10px;
   transition: all 0.2s;
 }
 .app-sidebar .app-sidebar__inner {

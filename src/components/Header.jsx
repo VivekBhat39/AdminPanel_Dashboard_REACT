@@ -47,227 +47,9 @@ export default function Header() {
                 </div>
                 <button className="close"></button>
               </div>
-              <ul className="header-megamenu nav">
-                <li className="nav-item">
-                  <a href="javascript:void(0);" data-placement="bottom" rel="popover-focus" data-offset="300" data-toggle="popover-custom" className="nav-link">
-                    <i className="nav-link-icon pe-7s-gift"> </i> Mega Menu
-                    <i className="fa fa-angle-down ml-2 opacity-5"></i>
-                  </a>
-                  <div className="rm-max-width">
-                    <div className="d-none popover-custom-content">
-                      <div className="dropdown-mega-menu">
-                        <div className="grid-menu grid-menu-3col">
-                          <div className="no-gutters row">
-                            <div className="col-sm-6 col-xl-4">
-                              <ul className="nav flex-column">
-                                <li className="nav-item-header nav-item"> Overview</li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">
-                                    <i className="nav-link-icon lnr-inbox"></i>
-                                    <span> Contacts</span>
-                                  </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">
-                                    <i className="nav-link-icon lnr-book"></i>
-                                    <span> Incidents</span>
-                                    <div className="ml-auto badge badge-pill badge-danger">5</div>
-                                  </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">
-                                    <i className="nav-link-icon lnr-picture"></i>
-                                    <span> Companies</span>
-                                  </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a disabled="" href="javascript:void(0);" className="nav-link disabled">
-                                    <i className="nav-link-icon lnr-file-empty"></i>
-                                    <span> Dashboards</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="col-sm-6 col-xl-4">
-                              <ul className="nav flex-column">
-                                <li className="nav-item-header nav-item"> Favourites</li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link"> Reports Conversions </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link"> Quick Start
-                                    <div className="ml-auto badge badge-success">New</div>
-                                  </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">Users &amp; Groups</a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">Proprieties</a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="col-sm-6 col-xl-4">
-                              <ul className="nav flex-column">
-                                <li className="nav-item-header nav-item">Sales &amp; Marketing</li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">Queues </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">Resource Groups </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">Goal Metrics
-                                    <div className="ml-auto badge badge-warning">3</div>
-                                  </a>
-                                </li>
-                                <li className="nav-item">
-                                  <a href="javascript:void(0);" className="nav-link">Campaigns</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li className="btn-group nav-item">
-                  <a className="nav-link" data-toggle="dropdown" aria-expanded="false">
-                    <span className="badge badge-pill badge-danger ml-0 mr-2">4</span> Settings
-                    <i className="fa fa-angle-down ml-2 opacity-5"></i>
-                  </a>
-                  <div tabindex="-1" role="menu" aria-hidden="true" className="rm-pointers dropdown-menu">
-                    <div className="dropdown-menu-header">
-                      <div className="dropdown-menu-header-inner bg-secondary">
-                        <div className="menu-header-image opacity-5" style={{ backgroundImage: `url('assets/images/dropdown-header/abstract2.jpg')` }}></div>
-                        <div className="menu-header-content">
-                          <h5 className="menu-header-title">Overview</h5>
-                          <h6 className="menu-header-subtitle">Dropdown menus for everyone</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="scroll-area-xs">
-                      <div className="scrollbar-container">
-                        <h6 tabindex="-1" className="dropdown-header">Key Figures</h6>
-                        <button type="button" tabindex="0" className="dropdown-item">Service Calendar</button>
-                        <button type="button" tabindex="0" className="dropdown-item">Knowledge Base</button>
-                        <button type="button" tabindex="0" className="dropdown-item">Accounts</button>
-                        <div tabindex="-1" className="dropdown-divider"></div>
-                        <button type="button" tabindex="0" className="dropdown-item">Products</button>
-                        <button type="button" tabindex="0" className="dropdown-item">Rollup Queries</button>
-                      </div>
-                    </div>
-                    <ul className="nav flex-column">
-                      <li className="nav-item-divider nav-item"></li>
-                      <li className="nav-item-btn nav-item">
-                        <button className="btn-wide btn-shadow btn btn-danger btn-sm">Cancel</button>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li className="dropdown nav-item">
-                  <a aria-haspopup="true" data-toggle="dropdown" className="nav-link" aria-expanded="false">
-                    <i className="nav-link-icon pe-7s-settings"></i> Projects
-                    <i className="fa fa-angle-down ml-2 opacity-5"></i>
-                  </a>
-                  <div tabindex="-1" role="menu" aria-hidden="true" className="dropdown-menu-rounded dropdown-menu-lg rm-pointers dropdown-menu">
-                    <div className="dropdown-menu-header">
-                      <div className="dropdown-menu-header-inner bg-success">
-                        <div className="menu-header-image opacity-1" style={{ backgroundImage: `url('assets/images/dropdown-header/abstract3.jpg')` }}></div>
-                        <div className="menu-header-content text-left">
-                          <h5 className="menu-header-title">Overview</h5>
-                          <h6 className="menu-header-subtitle">Unlimited options</h6>
-                          <div className="menu-header-btn-pane">
-                            <button className="mr-2 btn btn-dark btn-sm">Settings</button>
-                            <button className="btn-icon btn-icon-only btn btn-warning btn-sm">
-                              <i className="pe-7s-config btn-icon-wrapper"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <i className="dropdown-icon lnr-file-empty"></i>Graphic Design
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <i className="dropdown-icon lnr-file-empty"> </i>App Development
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <i className="dropdown-icon lnr-file-empty"> </i>Icon Design
-                    </button>
-                    <div tabindex="-1" className="dropdown-divider"></div>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <i className="dropdown-icon lnr-file-empty"></i>Miscellaneous
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <i className="dropdown-icon lnr-file-empty"></i>Frontend Dev
-                    </button>
-                  </div>
-                </li>
-              </ul>
             </div>
             <div className="app-header-right">
               <div className="header-dots">
-                <div className="dropdown">
-                  <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" className="p-0 mr-2 btn btn-link">
-                    <span className="icon-wrapper icon-wrapper-alt rounded-circle">
-                      <span className="icon-wrapper-bg bg-primary"></span>
-                      <i className="icon text-primary ion-android-apps"></i>
-                    </span>
-                  </button>
-                  <div tabindex="-1" role="menu" aria-hidden="true" className="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right">
-                    <div className="dropdown-menu-header">
-                      <div className="dropdown-menu-header-inner bg-plum-plate">
-                        <div className="menu-header-image" style={{ backgroundImage: `url('assets/images/dropdown-header/abstract4.jpg')` }}></div>
-                        <div className="menu-header-content text-white">
-                          <h5 className="menu-header-title">Grid Dashboard</h5>
-                          <h6 className="menu-header-subtitle">Easy grid navigation inside dropdowns</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="grid-menu grid-menu-xl grid-menu-3col">
-                      <div className="no-gutters row">
-                        <div className="col-sm-6 col-xl-4">
-                          <button className="btn-icon-vertical btn-square btn-transition btn btn-outline-link">
-                            <i className="pe-7s-world icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i> Automation
-                          </button>
-                        </div>
-                        <div className="col-sm-6 col-xl-4">
-                          <button className="btn-icon-vertical btn-square btn-transition btn btn-outline-link">
-                            <i className="pe-7s-piggy icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"> </i> Reports
-                          </button>
-                        </div>
-                        <div className="col-sm-6 col-xl-4">
-                          <button className="btn-icon-vertical btn-square btn-transition btn btn-outline-link">
-                            <i className="pe-7s-config icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"> </i> Settings
-                          </button>
-                        </div>
-                        <div className="col-sm-6 col-xl-4">
-                          <button className="btn-icon-vertical btn-square btn-transition btn btn-outline-link">
-                            <i className="pe-7s-browser icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"> </i> Content
-                          </button>
-                        </div>
-                        <div className="col-sm-6 col-xl-4">
-                          <button className="btn-icon-vertical btn-square btn-transition btn btn-outline-link">
-                            <i className="pe-7s-hourglass icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"></i> Activity
-                          </button>
-                        </div>
-                        <div className="col-sm-6 col-xl-4">
-                          <button className="btn-icon-vertical btn-square btn-transition btn btn-outline-link">
-                            <i className="pe-7s-world icon-gradient bg-night-fade btn-icon-wrapper btn-icon-lg mb-3"> </i> Contacts
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <ul className="nav flex-column">
-                      <li className="nav-item-divider nav-item"></li>
-                      <li className="nav-item-btn text-center nav-item">
-                        <button className="btn-shadow btn btn-primary btn-sm">Follow-ups</button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
                 <div className="dropdown">
                   <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" className="p-0 mr-2 btn btn-link">
                     <span className="icon-wrapper icon-wrapper-alt rounded-circle">
@@ -585,93 +367,6 @@ export default function Header() {
                     </ul>
                   </div>
                 </div>
-                <div className="dropdown">
-                  <button type="button" data-toggle="dropdown" className="p-0 mr-2 btn btn-link">
-                    <span className="icon-wrapper icon-wrapper-alt rounded-circle">
-                      <span className="icon-wrapper-bg bg-focus"></span>
-                      <span className="language-icon opacity-8 flag large DE"></span>
-                    </span>
-                  </button>
-                  <div tabindex="-1" role="menu" aria-hidden="true" className="rm-pointers dropdown-menu dropdown-menu-right">
-                    <div className="dropdown-menu-header">
-                      <div className="dropdown-menu-header-inner pt-4 pb-4 bg-focus">
-                        <div className="menu-header-image opacity-05" style={{ backgroundImage: `url('assets/images/dropdown-header/city2.jpg')` }}></div>
-                        <div className="menu-header-content text-center text-white">
-                          <h6 className="menu-header-subtitle mt-0"> Choose Language</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <h6 tabindex="-1" className="dropdown-header"> Popular Languages</h6>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <span className="mr-3 opacity-8 flag large US"></span> USA
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <span className="mr-3 opacity-8 flag large CH"></span> Switzerland
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <span className="mr-3 opacity-8 flag large FR"></span> France
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <span className="mr-3 opacity-8 flag large ES"></span>Spain
-                    </button>
-                    <div tabindex="-1" className="dropdown-divider"></div>
-                    <h6 tabindex="-1" className="dropdown-header">Others</h6>
-                    <button type="button" tabindex="0" className="dropdown-item active">
-                      <span className="mr-3 opacity-8 flag large DE"></span> Germany
-                    </button>
-                    <button type="button" tabindex="0" className="dropdown-item">
-                      <span className="mr-3 opacity-8 flag large IT"></span> Italy
-                    </button>
-                  </div>
-                </div>
-                <div className="dropdown">
-                  <button type="button" aria-haspopup="true" data-toggle="dropdown" aria-expanded="false" className="p-0 btn btn-link dd-chart-btn">
-                    <span className="icon-wrapper icon-wrapper-alt rounded-circle">
-                      <span className="icon-wrapper-bg bg-success"></span>
-                      <i className="icon text-success ion-ios-analytics"></i>
-                    </span>
-                  </button>
-                  <div tabindex="-1" role="menu" aria-hidden="true" className="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right">
-                    <div className="dropdown-menu-header">
-                      <div className="dropdown-menu-header-inner bg-premium-dark">
-                        <div className="menu-header-image" style={{ backgroundImage: `url('assets/images/dropdown-header/abstract4.jpg')` }}></div>
-                        <div className="menu-header-content text-white">
-                          <h5 className="menu-header-title">Users Online</h5>
-                          <h6 className="menu-header-subtitle">Recent Account Activity Overview</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="widget-chart">
-                      <div className="widget-chart-content">
-                        <div className="icon-wrapper rounded-circle">
-                          <div className="icon-wrapper-bg opacity-9 bg-focus"></div>
-                          <i className="lnr-users text-white"></i>
-                        </div>
-                        <div className="widget-numbers">
-                          <span>344k</span>
-                        </div>
-                        <div className="widget-subheading pt-2">
-                          Profile views since last login
-                        </div>
-                        <div className="widget-description text-danger">
-                          <span className="pr-1"><span>176%</span></span>
-                          <i className="fa fa-arrow-left"></i>
-                        </div>
-                      </div>
-                      <div className="widget-chart-wrapper">
-                        <div id="dashboard-sparkline-carousel-3-pop"></div>
-                      </div>
-                    </div>
-                    <ul className="nav flex-column">
-                      <li className="nav-item-divider mt-0 nav-item"></li>
-                      <li className="nav-item-btn text-center nav-item">
-                        <button className="btn-shine btn-wide btn-pill btn btn-warning btn-sm">
-                          <i className="fa fa-cog fa-spin mr-2"></i>View Details
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
               <div className="header-btn-lg pr-0">
                 <div className="widget-content p-0">
@@ -679,7 +374,7 @@ export default function Header() {
                     <div className="widget-content-left">
                       <div className="btn-group">
                         <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="p-0 btn">
-                          <img width="42" className="rounded-circle" src={require("..")} alt="" />
+                          <img width="42" className="rounded-circle" src={require("../assets/images/avatars/1.jpg")} alt="" />
                           <i className="fa fa-angle-down ml-2 opacity-8"></i>
                         </a>
                         <div tabindex="-1" role="menu" aria-hidden="true" className="rm-pointers dropdown-menu-lg dropdown-menu dropdown-menu-right">
@@ -991,516 +686,80 @@ export default function Header() {
         {/* <div className="app-main"> */}
 
 
-          {/*----------------- Sidebar -----------------------*/}
+        {/*----------------- Sidebar -----------------------*/}
 
-          <div className="row" style={{marginTop:'72px'}}>
-            <div className="col-lg-2">
+        <div className="row" style={{ marginTop: '72px' }}>
+          <div className="col-lg-2">
 
-              <div className="app-sidebar sidebar-shadow">
-                <div className="app-header__logo">
-                  <div className="logo-src">
-                  </div>
-                  <div className="header__pane ml-auto">
-                    <div>
-                      <button type="button" className="hamburger close-sidebar-btn hamburger--elastic" data-className="closed-sidebar">
-                        <span className="hamburger-box">
-                          <span className="hamburger-inner"></span>
-                        </span>
-                      </button>
-                    </div>
-                  </div>
+            <div className="app-sidebar sidebar-shadow">
+              {/* <div className="app-header__logo">
+                <div className="logo-src">
                 </div>
-                <div className="app-header__mobile-menu">
+                <div className="header__pane ml-auto">
                   <div>
-                    <button type="button" className="hamburger hamburger--elastic mobile-toggle-nav">
+                    <button type="button" className="hamburger close-sidebar-btn hamburger--elastic" data-className="closed-sidebar">
                       <span className="hamburger-box">
                         <span className="hamburger-inner"></span>
                       </span>
                     </button>
                   </div>
                 </div>
-                <div className="app-header__menu">
-                  <span>
-                    <button type="button" className="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
-                      <span className="btn-icon-wrapper">
-                        <i className="fa fa-ellipsis-v fa-w-6"></i>
-                      </span>
-                    </button>
-                  </span>
+              </div> */}
+              <div className="app-header__mobile-menu">
+                <div>
+                  <button type="button" className="hamburger hamburger--elastic mobile-toggle-nav">
+                    <span className="hamburger-box">
+                      <span className="hamburger-inner"></span>
+                    </span>
+                  </button>
                 </div>
+              </div>
+              <div className="app-header__menu">
+                <span>
+                  <button type="button" className="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                    <span className="btn-icon-wrapper">
+                      <i className="fa fa-ellipsis-v fa-w-6"></i>
+                    </span>
+                  </button>
+                </span>
+              </div>
 
 
-                <div className="scrollbar-sidebar">
+              <div className="scrollbar-sidebar">
 
-                  <div className="app-sidebar__inner">
-                    <ul className="vertical-nav-menu">
-                      <li className="app-sidebar__heading">Menu</li>
-                      <li className="mm-active">
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-rocket"></i>Dashboards
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li><Link to="/dashboard/analyticsdashboard">Analytics Dashboard</Link></li>
-                          <li><Link to="/dashboard/technicalsupport">Technical Supports</Link></li>
-                          <li><Link to="/dashboard/chartcard">Chart Card</Link></li>
-                          <li><Link to="/dashboard/dynamictables">Dynamic Tables</Link></li>
-                          <li><Link to="/dashboard/taskandchatbox">Task And Chatbox</Link></li>
-                          <li><Link to="/dashboard/totalorders">TotalOrders</Link></li>
-                          <li>
-                            <a href="index.html">
-                              <i className="metismenu-icon"></i>Analytics
-                            </a>
-                          </li>
-                          <li>
-                            <a href="dashboards-commerce.html">
-                              <i className="metismenu-icon"></i>Commerce
-                            </a>
-                          </li>
-                          <li>
-                            <a href="dashboards-sales.html">
-                              <i className="metismenu-icon">
-                              </i>Sales
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="metismenu-icon"></i> Minimal
-                              <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                            </a>
-                            <ul>
-                              <li>
-                                <a href="dashboards-minimal-1.html">
-                                  <i className="metismenu-icon"></i>Variation 1
-                                </a>
-                              </li>
-                              <li>
-                                <a href="dashboards-minimal-2.html">
-                                  <i className="metismenu-icon"></i>Variation 2
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="dashboards-crm.html">
-                              <i className="metismenu-icon"></i> CRM
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-browser"></i>Pages
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="pages-login.html">
-                              <i className="metismenu-icon"></i> Login
-                            </a>
-                          </li>
-                          <li>
-                            <a href="pages-login-boxed.html">
-                              <i className="metismenu-icon"></i>Login Boxed
-                            </a>
-                          </li>
-                          <li>
-                            <a href="pages-register.html">
-                              <i className="metismenu-icon"></i>Register
-                            </a>
-                          </li>
-                          <li>
-                            <a href="pages-register-boxed.html">
-                              <i className="metismenu-icon"></i>Register Boxed
-                            </a>
-                          </li>
-                          <li>
-                            <a href="pages-forgot-password.html">
-                              <i className="metismenu-icon"></i>Forgot Password
-                            </a>
-                          </li>
-                          <li>
-                            <a href="pages-forgot-password-boxed.html">
-                              <i className="metismenu-icon"></i>Forgot Password Boxed
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-plugin"></i>Applications
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="apps-mailbox.html">
-                              <i className="metismenu-icon"></i>Mailbox
-                            </a>
-                          </li>
-                          <li>
-                            <a href="apps-chat.html">
-                              <i className="metismenu-icon"></i>Chat
-                            </a>
-                          </li>
-                          <li>
-                            <a href="apps-faq-section.html">
-                              <i className="metismenu-icon"></i>FAQ Section
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="metismenu-icon"></i>Forums
-                              <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                            </a>
-                            <ul>
-                              <li>
-                                <a href="apps-forum-list.html">
-                                  <i className="metismenu-icon"></i>Forum Listing
-                                </a>
-                              </li>
-                              <li>
-                                <a href="apps-forum-threads.html">
-                                  <i className="metismenu-icon"></i>Forum Threads
-                                </a>
-                              </li>
-                              <li>
-                                <a href="apps-forum-discussion.html">
-                                  <i className="metismenu-icon"></i>Forum Discussion
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="app-sidebar__heading">UI Components</li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-diamond"></i> Elements
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="#">
-                              <i className="metismenu-icon"></i> Buttons
-                              <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                            </a>
-                            <ul>
-                              <li>
-                                <a href="elements-buttons-standard.html">
-                                  <i className="metismenu-icon"></i>Standard
-                                </a>
-                              </li>
-                              <li>
-                                <a href="elements-buttons-pills.html">
-                                  <i className="metismenu-icon"></i>Pills
-                                </a>
-                              </li>
-                              <li>
-                                <a href="elements-buttons-square.html">
-                                  <i className="metismenu-icon"></i>Square
-                                </a>
-                              </li>
-                              <li>
-                                <a href="elements-buttons-shadow.html">
-                                  <i className="metismenu-icon"></i>Shadow
-                                </a>
-                              </li>
-                              <li>
-                                <a href="elements-buttons-icons.html">
-                                  <i className="metismenu-icon"></i>With Icons
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="elements-dropdowns.html">
-                              <i className="metismenu-icon"></i>Dropdowns
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-icons.html">
-                              <i className="metismenu-icon"></i>Icons
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-badges-labels.html">
-                              <i className="metismenu-icon"></i>Badges
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-cards.html">
-                              <i className="metismenu-icon"></i>Cards
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-loaders.html">
-                              <i className="metismenu-icon"></i>Loading Indicators
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-list-group.html">
-                              <i className="metismenu-icon"></i>List Groups
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-navigation.html">
-                              <i className="metismenu-icon"></i>Navigation Menus
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-timelines.html">
-                              <i className="metismenu-icon"></i>Timeline
-                            </a>
-                          </li>
-                          <li>
-                            <a href="elements-utilities.html">
-                              <i className="metismenu-icon"></i>Utilities
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-car"></i> Components
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="components-tabs.html">
-                              <i className="metismenu-icon"></i>Tabs
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-accordions.html">
-                              <i className="metismenu-icon"></i>Accordions
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-notifications.html">
-                              <i className="metismenu-icon"></i>Notifications
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-modals.html">
-                              <i className="metismenu-icon"></i>Modals
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-loading-blocks.html">
-                              <i className="metismenu-icon"></i>Loading Blockers
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-progress-bar.html">
-                              <i className="metismenu-icon"></i>Progress Bar
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-tooltips-popovers.html">
-                              <i className="metismenu-icon"> </i>Tooltips &amp; Popovers
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-carousel.html">
-                              <i className="metismenu-icon"></i>Carousel
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-calendar.html">
-                              <i className="metismenu-icon"></i>Calendar
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-pagination.html">
-                              <i className="metismenu-icon"></i>Pagination
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-count-up.html">
-                              <i className="metismenu-icon"></i>Count Up
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-scrollable-elements.html">
-                              <i className="metismenu-icon"></i>Scrollable
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-tree-view.html">
-                              <i className="metismenu-icon"></i>Tree View
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-maps.html">
-                              <i className="metismenu-icon"></i>Maps
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-ratings.html">
-                              <i className="metismenu-icon"></i>Ratings
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-image-crop.html">
-                              <i className="metismenu-icon"></i>Image Crop
-                            </a>
-                          </li>
-                          <li>
-                            <a href="components-guided-tours.html">
-                              <i className="metismenu-icon"></i>Guided Tours
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-display2"></i> Tables
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="tables-data-tables.html">
-                              <i className="metismenu-icon"> </i>Data Tables
-                            </a>
-                          </li>
-                          <li>
-                            <a href="tables-regular.html">
-                              <i className="metismenu-icon"></i>Regular Tables
-                            </a>
-                          </li>
-                          <li>
-                            <a href="tables-grid.html">
-                              <i className="metismenu-icon"></i>Grid Tables
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="app-sidebar__heading">Dashboard Widgets</li>
-                      <li>
-                        <a href="widgets-chart-boxes.html">
-                          <i className="metismenu-icon pe-7s-graph"></i>Chart Boxes 1
-                        </a>
-                      </li>
-                      <li>
-                        <a href="widgets-chart-boxes-2.html">
-                          <i className="metismenu-icon pe-7s-way"></i>Chart Boxes 2
-                        </a>
-                      </li>
-                      <li>
-                        <a href="widgets-chart-boxes-3.html">
-                          <i className="metismenu-icon pe-7s-ball"></i>Chart Boxes 3
-                        </a>
-                      </li>
-                      <li>
-                        <a href="widgets-profile-boxes.html">
-                          <i className="metismenu-icon pe-7s-id"></i>Profile Boxes
-                        </a>
-                      </li>
-                      <li className="app-sidebar__heading">Forms</li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-light"></i> Elements
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="forms-controls.html">
-                              <i className="metismenu-icon"></i>Controls
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-layouts.html">
-                              <i className="metismenu-icon"></i>Layouts
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-validation.html">
-                              <i className="metismenu-icon"></i>Validation
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-wizard.html">
-                              <i className="metismenu-icon"></i>Wizard
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="metismenu-icon pe-7s-joy"></i> Widgets
-                          <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="forms-datepicker.html">
-                              <i className="metismenu-icon"></i>Datepicker
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-range-slider.html">
-                              <i className="metismenu-icon"></i>Range Slider
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-input-selects.html">
-                              <i className="metismenu-icon"></i>Input Selects
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-toggle-switch.html">
-                              <i className="metismenu-icon"></i>Toggle Switch
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-wysiwyg-editor.html">
-                              <i className="metismenu-icon"></i>WYSIWYG Editor
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-input-mask.html">
-                              <i className="metismenu-icon"></i>Input Mask
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-clipboard.html">
-                              <i className="metismenu-icon"></i>Clipboard
-                            </a>
-                          </li>
-                          <li>
-                            <a href="forms-textarea-autosize.html">
-                              <i className="metismenu-icon"></i>Textarea Autosize
-                            </a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="app-sidebar__heading">Charts</li>
-                      <li>
-                        <a href="charts-chartjs.html">
-                          <i className="metismenu-icon pe-7s-graph2"></i>ChartJS
-                        </a>
-                      </li>
-                      <li>
-                        <a href="charts-apexcharts.html">
-                          <i className="metismenu-icon pe-7s-graph"></i>Apex Charts
-                        </a>
-                      </li>
-                      <li>
-                        <a href="charts-sparklines.html">
-                          <i className="metismenu-icon pe-7s-graph1"></i>Chart Sparklines
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-
+                <div className="app-sidebar__inner">
+                  <ul className="vertical-nav-menu">
+                    <li className="app-sidebar__heading">Menu</li>
+                    <li className="mm-active">
+                      <a href="#">
+                        <i className="metismenu-icon pe-7s-rocket"></i>Dashboards
+                        <i className="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                      </a>
+                      <ul>
+                        <li><Link to="/dashboard/city">Cities</Link></li>
+                        <li><Link to="/dashboard/companies">Companies</Link></li>
+                        <li><Link to="/dashboard/productcategories">Product Categories</Link></li>
+                        <li><Link to="/dashboard/users">Users</Link></li>
+                        <li><Link to="/dashboard/analyticsdashboard">Analytics Dashboard</Link></li>
+                        <li><Link to="/dashboard/technicalsupport">Technical Supports</Link></li>
+                        <li><Link to="/dashboard/chartcard">Chart Card</Link></li>
+                        <li><Link to="/dashboard/dynamictables">Dynamic Tables</Link></li>
+                        <li><Link to="/dashboard/taskandchatbox">Task And Chatbox</Link></li>
+                        <li><Link to="/dashboard/totalorders">TotalOrders</Link></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-
-
-            <div className="col-lg-9 mx-auto">
-              <Outlet />
-            </div>
           </div>
+
+
+
+          <div className="col-lg-9 mx-auto">
+            <Outlet />
+          </div>
+        </div>
 
 
         {/* </div> */}
